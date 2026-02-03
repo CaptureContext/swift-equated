@@ -1,0 +1,20 @@
+version: 1
+builder:
+	configs:
+	- platform: ios
+		scheme: Equated
+	- platform: macos-xcodebuild
+		scheme: Equated
+	- platform: tvos
+		scheme: Equated
+	- platform: watchos
+		scheme: Equated
+	- platform: linux
+		scheme: KeyPathsExtensions
+		swift_version: '5.9'
+	- platform: linux
+		scheme: KeyPathsExtensions
+		swift_version: '6.0'
+
+	- documentation_targets:
+		- Equated
