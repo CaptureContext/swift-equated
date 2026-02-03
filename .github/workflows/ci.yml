@@ -23,7 +23,6 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        command: [test]
         platform: [iOS, macOS, macCatalyst, tvOS, watchOS]
         xcode: ['26.2']
     timeout-minutes: 30
