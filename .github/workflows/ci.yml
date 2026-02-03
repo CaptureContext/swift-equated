@@ -30,7 +30,7 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: Test
-      uses: capturecontext/swift-package-action/build@3.0-beta.7
+      uses: capturecontext/swift-package-action/build@3.0-beta.8
       with:
         xcode: ${{ matrix.xcode }}
         cache-derived-data: true
