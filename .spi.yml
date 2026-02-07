@@ -2,26 +2,16 @@ version: 1
 builder:
   configs:
   - platform: ios
-    scheme: Equated
-
   - platform: macos-spm
-    scheme: Equated
-
   - platform: macos-xcodebuild
-    scheme: Equated
-
   - platform: tvos
-    scheme: Equated
-
   - platform: watchos
-    scheme: Equated
+  - platform: android
 
   - platform: linux
-    scheme: Equated
     swift_version: '5.9'
 
   - platform: linux
-    scheme: Equated
     swift_version: '6.0'
 
   - documentation_targets:
